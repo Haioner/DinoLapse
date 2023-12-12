@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Table_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 9236ecbab0245e84e8b70c1a1f7d1cf6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14990446592
+    m_Localized: Fechar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1103301785423872
+    m_Localized: Qualidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1103325856534528
+    m_Localized: "Resolu\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1103370358099968
+    m_Localized: Modo de Tela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1103418345132032
+    m_Localized: "Escala de Renderiza\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1103533172592640
+    m_Localized: Brilho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1103575954493440
+    m_Localized: "P\xF3s Processamento"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1109238944370688
+    m_Localized: Aplicar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1114167897493504
+    m_Localized: Sensibilidade do Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1114230942076928
+    m_Localized: Lingua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1114260671303680
+    m_Localized: Voltar para o Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1122415060979712
+    m_Localized: Jogar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1122434472218624
+    m_Localized: Creditos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1122457788354560
+    m_Localized: "Op\xE7\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1122484363464704
+    m_Localized: Sair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125443314913280
+    m_Localized: Volume Mestre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125485740298240
+    m_Localized: Volume do Som
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1125517784780800
+    m_Localized: Volume da Musica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1126687072849920
+    m_Localized: 'Correr : Shift
+
+      Agachar : Ctrl
+
+      Deitar : Z
+
+      Interager
+      : Clique
+
+      Zoom de Camera : Clique Direito + Roda do Mouse
+
+      Rotacionar
+      Item Agarravel : E (Enquanto Segura)'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
