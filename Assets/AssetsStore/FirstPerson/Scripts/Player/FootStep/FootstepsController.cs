@@ -20,6 +20,8 @@ public class FootstepsController : MonoBehaviour
 
     private void Update()
     {
+        if (!playerController.GetMoveState()) return;
+
         if (playerController.playerStance == PlayerStance.Prone || playerController.playerStance == PlayerStance.Crouch)
             return;
 

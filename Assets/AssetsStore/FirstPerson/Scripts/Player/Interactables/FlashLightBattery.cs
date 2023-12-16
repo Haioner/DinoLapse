@@ -1,15 +1,18 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class FlashLightBattery : MonoBehaviour, IInteractable
 {
-    [SerializeField] private string interactMessage = "Interact";
-    public string InteractMessage
+    [Header("Interact")]
+    public LocalizedString interactMessage;
+    public LocalizedString fullBatteryMessage;
+    public LocalizedString InteractMessage
     {
         get { return interactMessage; }
         set { interactMessage = value; }
     }
-    private string initialInteractMessage;
+    private LocalizedString initialInteractMessage;
 
     [Space]
     [SerializeField] private AudioSource audioSource;
@@ -36,7 +39,7 @@ public class FlashLightBattery : MonoBehaviour, IInteractable
 
     private IEnumerator UpdateInteractMessage()
     {
-        interactMessage = "Full Battery";
+        interactMessage = fullBatteryMessage;
         yield return new WaitForSeconds(1);
         interactMessage = initialInteractMessage;
     }

@@ -172,6 +172,12 @@ public class Grab_Items : MonoBehaviour
 		}
     }
 
+	public void RemoveGrab()
+	{
+        Reset();
+        grabbing = false;
+    }
+
     private void Select(Rigidbody _Target, float _Distance)
 	{
 		targetRB = _Target;

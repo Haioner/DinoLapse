@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class LeverController : MonoBehaviour, IInteractable
 {
-    [SerializeField] private string interactMessage = "Interact";
-    public string InteractMessage
+    [Header("Interact")]
+    public LocalizedString interactMessage;
+    public LocalizedString InteractMessage
     {
         get { return interactMessage; }
         set { interactMessage = value; }
@@ -27,8 +29,8 @@ public class LeverController : MonoBehaviour, IInteractable
         _leverActive = !_leverActive;
         anim.SetBool("Lever", _leverActive);
 
-        door.SetDoorActive(true, door.InteractMessage);
+        door.SetDoorActive(true);
         door.Interact();
-        door.SetDoorActive(false, door.InteractMessage);
+        door.SetDoorActive(false);
     }
 }

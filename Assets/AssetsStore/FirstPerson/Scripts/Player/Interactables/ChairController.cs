@@ -1,10 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class ChairController : MonoBehaviour, IInteractable
 {
-    [SerializeField] private string interactMessage = "Interact";
-    public string InteractMessage
+    [Header("Interact")]
+    public LocalizedString interactMessage;
+    public LocalizedString InteractMessage
     {
         get { return interactMessage; }
         set { interactMessage = value; }

@@ -91,19 +91,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1126687072849920
-    m_Localized: 'Correr : Shift
-
-      Agachar : Ctrl
-
-      Deitar : Z
-
-      Interager
-      : Clique
-
-      Zoom de Camera : Clique Direito + Roda do Mouse
-
-      Rotacionar
-      Item Agarravel : E (Enquanto Segura)'
+    m_Localized: "Correr : Shift\r\nAgachar : Ctrl\r\nDeitar : Z\r\nInteragir : Clique
+      esquerdo\r\nLan\xE7ar : Clique direito\r\nZoom de Camera : Clique Direito +
+      Roda do Mouse\r\nRotacionar Item Agarravel : E (Enquanto Segura)\nLanterna:
+      F\nSele\xE7\xE3o de Item: 1,2,3"
     m_Metadata:
       m_Items: []
   references:

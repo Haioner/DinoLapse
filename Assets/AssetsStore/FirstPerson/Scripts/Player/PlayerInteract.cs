@@ -1,11 +1,13 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.Localization;
 
 public class PlayerInteract : MonoBehaviour
 {
     [Header("Interact")]
     [SerializeField] private float interactDistance = 5f;
     [SerializeField] private TextMeshProUGUI interactText;
+    [SerializeField] private LocalizedString interactMessage;
 
     [Header("FeedBack")]
     [SerializeField] private CanvasGroup interactCanvas;
@@ -42,9 +44,24 @@ public class PlayerInteract : MonoBehaviour
             interactCanvas.alpha = 1;
 
             if (interactable != null)
-                interactText.text = interactable.InteractMessage;
+            {
+                //Has found interface
+                interactable.InteractMessage.GetLocalizedStringAsync().Completed += handle =>
+                {
+                    string translatedText = handle.Result;
+                    interactText.text = translatedText;
+                };
+
+            }
             else
-                interactText.text = "Interact";
+            {
+                //Hasnt found interface
+                interactMessage.GetLocalizedStringAsync().Completed += handle =>
+                {
+                    string translatedText = handle.Result;
+                    interactText.text = translatedText;
+                };
+            }
         }
         else
             interactCanvas.alpha = 0;

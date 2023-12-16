@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RoadScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Factory.unity
+    guid: 3a2acb59c065b624bb603bf7a76e157f
+  - enabled: 1
+    path: Assets/Scenes/Lab.unity
+    guid: 7498d970a9ca83f45b1483bd9371bdd2
+  - enabled: 1
+    path: Assets/Scenes/FutureLab.unity
+    guid: 926a2ef7a6ae4a84d804009793d4e3dd
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: e19683fed4af36242aa41723e7ab2713,
       type: 2}

@@ -29,6 +29,8 @@ public class Flashlight_controller : MonoBehaviour
     [SerializeField] private Slider batterySlider;
     private float _currentBatteryVelocity = 100f;
 
+    private PlayerHandManager playerHandManager;
+
     private void Awake()
     {
         batterySlider.maxValue = batteryValue;
@@ -43,12 +45,22 @@ public class Flashlight_controller : MonoBehaviour
         }
 
         _isFlashing = lights[0].enabled;
+
+        playerHandManager = FindObjectOfType<PlayerHandManager>();
     }
 
     void Update()
     {
         FlickFlashLight();
         CalculateBattery();
+    }
+
+    private void OnEnable()
+    {
+        if (playerHandManager.isFlashing)
+            SetLightActive(true);
+        else
+            SetLightActive(false);
     }
 
     void FlickFlashLight()
@@ -109,6 +121,7 @@ public class Flashlight_controller : MonoBehaviour
         flashAudio.Play();
 
         _isFlashing = !_isFlashing;
+        playerHandManager.isFlashing = _isFlashing;
         //Lights
         for (int i = 0; i < lights.Count; i++)
             lights[i].enabled = !lights[i].enabled;
@@ -116,6 +129,18 @@ public class Flashlight_controller : MonoBehaviour
         //Volumetric
         for (int i = 0; i < volumetricLights.Count; i++)
             volumetricLights[i].enabled = lights[i].enabled;
+    }
+
+    private void SetLightActive(bool state)
+    {
+        _isFlashing = state;
+        //Lights
+        for (int i = 0; i < lights.Count; i++)
+            lights[i].enabled = state;
+
+        //Volumetric
+        for (int i = 0; i < volumetricLights.Count; i++)
+            volumetricLights[i].enabled = state;
     }
 
     public bool AddBattery(int value)

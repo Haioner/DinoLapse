@@ -269,11 +269,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 1
-  interactMessage: Interact
+  interactMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9500186644480
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  lockedMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9575751225344
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   openClip: {fileID: 8300000, guid: aa6ad60264cf7fe4cb6f3693ebb5eff7, type: 3}
   lockedClip: {fileID: 8300000, guid: 6ed78f919f00551429bc3d30181a8219, type: 3}
   closeClip: {fileID: 8300000, guid: f50b4d2ae5e28034fa75c3c157011339, type: 3}
   delayCloseSound: 0.2
+  references:
+    version: 2
+    RefIds: []
 --- !u!95 &3184358629196446185
 Animator:
   serializedVersion: 5
@@ -444,7 +464,7 @@ Transform:
   m_Children:
   - {fileID: 4534859482185365418}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9127393672288422164
 MeshFilter:

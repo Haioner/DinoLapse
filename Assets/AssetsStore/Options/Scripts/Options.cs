@@ -132,7 +132,8 @@ public class Options : MonoBehaviour
     public void BackToMenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Menu");
+        //SceneManager.LoadScene("Menu");
+        FindObjectOfType<Transition>().ChangeSceneTo("Menu");
     }
 
     #region Video

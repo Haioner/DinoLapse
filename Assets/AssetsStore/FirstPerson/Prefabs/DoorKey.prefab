@@ -181,8 +181,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 321857d36271cfb4f9625494dbd28143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactMessage: Door key
+  interactMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9500186644480
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   door: {fileID: 4786816223629506358}
+  references:
+    version: 2
+    RefIds: []
 --- !u!82 &3120781416495981996
 AudioSource:
   m_ObjectHideFlags: 0
@@ -486,11 +497,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
-  interactMessage: Locked, requires key
+  interactMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9500186644480
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  lockedMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9575751225344
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   openClip: {fileID: 8300000, guid: aa6ad60264cf7fe4cb6f3693ebb5eff7, type: 3}
   lockedClip: {fileID: 8300000, guid: 6ed78f919f00551429bc3d30181a8219, type: 3}
   closeClip: {fileID: 8300000, guid: f50b4d2ae5e28034fa75c3c157011339, type: 3}
   delayCloseSound: 0.2
+  references:
+    version: 2
+    RefIds: []
 --- !u!95 &5080855326531722256
 Animator:
   serializedVersion: 5

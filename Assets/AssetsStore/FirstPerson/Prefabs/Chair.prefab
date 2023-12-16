@@ -34,7 +34,7 @@ Transform:
   - {fileID: 1691593683099544590}
   - {fileID: 3274458887879685752}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &7666497620631947145
 BoxCollider:
@@ -69,10 +69,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe10c1184fad9447a24fd084d14f66d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactMessage: Interact
+  interactMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9609083359232
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   seatPosition: {fileID: 3274458887879685752}
   lerpSpeed: 3
   isActive: 0
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &474683537823635876
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +133,6 @@ MonoBehaviour:
   stepsTAGS: {fileID: 11400000, guid: 94b236f065ee9fb46b74ec3e3e322aee, type: 2}
   useFootsteps: 1
   baseStepSpeed: 0.5
-  crouchStepMultiplier: 1.28
   sprintStepMultiplier: 0.6
 --- !u!82 &5177500655190640600
 AudioSource:
@@ -1120,6 +1130,7 @@ MonoBehaviour:
   lights:
   - {fileID: 4154742981018138863}
   - {fileID: 7688136922458314035}
+  volumetricLights: []
   flashAudio: {fileID: 6961678845911875644}
   flickerDuration: 0.05
   flickerDelay: 10
@@ -1396,18 +1407,18 @@ MonoBehaviour:
     RunningStrafeSpeed: 6
     FovToAdd: 15
     FovVelocity: 5
-    canStamina: 1
-    maxStamina: 100
-    minCanRunAfterZero: 10
-    staminaWasteVelocity: 10
-    staminaChargeVelocity: 5
-    pantingAudioSource: {fileID: 0}
+    CanStamina: 1
+    MaxStamina: 100
+    MinCanRunAfterZero: 15
+    StaminaWasteVelocity: 10
+    StaminaChargeVelocity: 5
+    PantingAudioSource: {fileID: 0}
     CrouchSpeedEffector: 0.5
     ProneSpeedEffector: 0.2
     FallingSpeedEffector: 1
   gravitySettings:
-    gravityAmount: 0.3
-    gravityMin: -3
+    GravityAmount: 0.3
+    GravityMin: -3
     JumpingHeight: 6
     JumpingFallof: 1.5
     FallingSmoothing: 0.1

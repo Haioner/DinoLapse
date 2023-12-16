@@ -1,10 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class KeyController : MonoBehaviour, IInteractable
 {
-    [SerializeField] private string interactMessage = "Interact";
-    public string InteractMessage
+    [Header("Interact")]
+    public LocalizedString interactMessage;
+    public LocalizedString InteractMessage
     {
         get { return interactMessage; }
         set { interactMessage = value; }
@@ -18,7 +20,7 @@ public class KeyController : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        door.SetDoorActive(true, "Interact");
+        door.SetDoorActive(true);
         audioSource.Play();
         StartCoroutine(DestroyOnAudioEnd());
     }

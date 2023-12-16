@@ -150,6 +150,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public bool GetViewState() { return  viewSettings.CanView; }
+    public bool GetMoveState() { return  movementSettings.CanMove; }
 
     public void SetMoveState(bool state)
     {

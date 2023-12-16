@@ -35,12 +35,12 @@ public class EnemyDetector : MonoBehaviour
     {
         float maxDistance = 10f;
         float minPitch = 1f;
-        float maxPitch = 1.3f;
+        float maxPitch = 1.5f;
 
         float pitchDistance = Vector3.Distance(transform.position, playerController.transform.position);
         float t = Mathf.InverseLerp(0f, maxDistance, pitchDistance);
         float pitch = Mathf.Lerp(maxPitch, minPitch, t);
-        enemy.SetChaseMusicPitch(pitch + 0.06f);
+        enemy.SetChaseMusicPitch(pitch);
     }
 
 

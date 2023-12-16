@@ -91,19 +91,25 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1126687072849920
-    m_Localized: 'Run : Shift
+    m_Localized: 'Run: Shift
 
-      Crouch : Ctrl
+      Crouch: Ctrl
 
-      Prone : Z
+      Lay: Z
 
-      Interact
-      : Click
+      Interact: Left
+      click
 
-      Camera Zoom : Right Click + Mouse Scroll
+      Launch: Right click
 
-      Rotate Grabbable
-      Item : E (while hold)'
+      Camera Zoom: Right Click + Mouse Wheel
+
+      Rotate
+      Grabable Item: E (While Hold)
+
+      Flashligh: F
+
+      Item Select: 1,2,3'
     m_Metadata:
       m_Items: []
   references:

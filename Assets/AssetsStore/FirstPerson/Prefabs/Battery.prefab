@@ -100,9 +100,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b333d04fdbf7d2c4e869b51c85af90c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactMessage: Charge Flashlight
+  interactMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9500186644480
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  fullBatteryMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9534105980928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   audioSource: {fileID: 1525813081441987526}
   batteryCharge: 5
+  references:
+    version: 2
+    RefIds: []
 --- !u!82 &1525813081441987526
 AudioSource:
   m_ObjectHideFlags: 0

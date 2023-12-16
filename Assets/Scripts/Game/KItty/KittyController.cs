@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class KittyController : MonoBehaviour, IInteractable
 {
     [Header("Interact")]
-    [SerializeField] private string interactMessage = "Interact";
-    public string InteractMessage
+    public LocalizedString interactMessage;
+    public LocalizedString InteractMessage
     {
         get { return interactMessage; }
         set { interactMessage = value; }

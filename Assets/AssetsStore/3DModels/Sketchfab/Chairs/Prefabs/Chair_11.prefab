@@ -130,10 +130,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe10c1184fad9447a24fd084d14f66d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactMessage: Interact
+  interactMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:75e830fff4fd2574bb7da706fe45ac71
+    m_TableEntryReference:
+      m_KeyId: 9609083359232
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   seatPosition: {fileID: 7120520233598771654}
   lerpSpeed: 3
   isActive: 0
+  references:
+    version: 2
+    RefIds: []
 --- !u!65 &390764524605282349
 BoxCollider:
   m_ObjectHideFlags: 0

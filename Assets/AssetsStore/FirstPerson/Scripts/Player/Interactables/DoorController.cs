@@ -1,13 +1,21 @@
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class DoorController : MonoBehaviour, IInteractable
 {
     [Header("Door Interaction")]
     [SerializeField] private bool canInteract = true;
-    [SerializeField] private string interactMessage = "Interact";
-    public string InteractMessage
+    public LocalizedString interactMessage;
+    public LocalizedString lockedMessage;
+    public LocalizedString InteractMessage
     {
-        get { return interactMessage; }
+        get 
+        {
+            if (canInteract)
+                return interactMessage;
+            else
+                return lockedMessage;
+        }
         set { interactMessage = value; }
     }
 
@@ -27,10 +35,9 @@ public class DoorController : MonoBehaviour, IInteractable
         anim = GetComponent<Animator>();
     }
 
-    public void SetDoorActive(bool state, string _interactMessge)
+    public void SetDoorActive(bool state)
     {
         canInteract = state;
-        interactMessage = _interactMessge;
     }
 
     public void Interact()
