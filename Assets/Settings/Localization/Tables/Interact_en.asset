@@ -46,6 +46,14 @@ MonoBehaviour:
     m_Localized: Power Room Key
     m_Metadata:
       m_Items: []
+  - m_Id: 2195486874275840
+    m_Localized: Turn on the power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196876287807488
+    m_Localized: Gate without power to open
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

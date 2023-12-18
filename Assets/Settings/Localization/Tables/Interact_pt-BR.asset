@@ -46,6 +46,14 @@ MonoBehaviour:
     m_Localized: Chave da Sala de Energia
     m_Metadata:
       m_Items: []
+  - m_Id: 2195486874275840
+    m_Localized: Ligar a energia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196876287807488
+    m_Localized: "Port\xE3o sem energia para abrir"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

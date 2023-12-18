@@ -44,6 +44,11 @@ public class LabDoor : MonoBehaviour
 
     }
 
+    public void CanOpenDoor()
+    {
+        canOpen = true;
+    }
+
     public void OpenDoor()
     {
         anim.Play("Open");

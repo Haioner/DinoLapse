@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class LoaderManager : MonoBehaviour
 {
-    [SerializeField] private bool CanAwakeLoad = false;
-
+    //[SerializeField] private bool CanAwakeLoad = false;
+    public static bool isToLoad;
     private const string playerPositionKey = "PlayerPosition";
     private const string sceneNameKey = "CurrentScene";
     private const string crowbarKey = "CanCrowBar";
@@ -13,8 +13,11 @@ public class LoaderManager : MonoBehaviour
 
     void Awake()
     {
-        if (CanAwakeLoad)
+        if (isToLoad)
+        {
             LoadPlayer();
+            isToLoad = false;
+        }
     }
 
     private void LoadPlayer()
