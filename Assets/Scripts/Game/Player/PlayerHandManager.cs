@@ -51,6 +51,16 @@ public class PlayerHandManager : MonoBehaviour
         UpdateItem();
     }
 
+    public bool GetCanCrowbar()
+    {
+        return canCrowbar;
+    }
+
+    public bool GetCanFlashLight()
+    {
+        return canFlashlight;
+    }
+
     private void SelectItem()
     {
         // Escolha de item usando as teclas numéricas

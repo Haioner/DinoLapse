@@ -5118,7 +5118,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 100
+  far clip plane: 1000
   field of view: 70
   orthographic: 0
   orthographic size: 5
@@ -9198,7 +9198,7 @@ PrefabInstance:
     - target: {fileID: 3380790315019193503, guid: 68a484d5d7c7b3e4f8ef67472294d220,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3967505936094482083, guid: 68a484d5d7c7b3e4f8ef67472294d220,
         type: 3}
@@ -9305,6 +9305,11 @@ PrefabInstance:
       propertyPath: batterySlider
       value: 
       objectReference: {fileID: 6364158411045498695}
+    - target: {fileID: 7033287704942932613, guid: 68a484d5d7c7b3e4f8ef67472294d220,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 7358335378064117273, guid: 68a484d5d7c7b3e4f8ef67472294d220,
         type: 3}
       propertyPath: fallOffEnd

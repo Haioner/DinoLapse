@@ -7432,6 +7432,7 @@ GameObject:
   - component: {fileID: 6898302537218322378}
   - component: {fileID: 5216303860092105755}
   - component: {fileID: 68346563957133094}
+  - component: {fileID: 153711508917695156}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -7623,6 +7624,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropDown: {fileID: 2263568420463964718}
+--- !u!114 &153711508917695156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248901888192117150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c3bd7f7bf89764497c484b45c63441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3248901888235958059
 GameObject:
   m_ObjectHideFlags: 0

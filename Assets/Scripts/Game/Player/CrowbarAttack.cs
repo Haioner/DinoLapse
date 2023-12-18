@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CrowbarAttack : MonoBehaviour
@@ -45,11 +44,23 @@ public class CrowbarAttack : MonoBehaviour
 
         if (Physics.Raycast(cameraRay, out hit, attackRange, damageableLayer))
         {
-            StartCoroutine(CreateDecalDelayed(hit.point, hit.normal, decalOffset, 0.1f));
+            StartCoroutine(CreateDecalDelayed(hit.collider.gameObject, hit.point, hit.normal, decalOffset, 0.1f));
+
             IDamage damagable = hit.collider.GetComponent<IDamage>();
+
             if (damagable != null)
             {
                 damagable.TakeDamage(1);
+
+                if (damagable.HitAudio == null)
+                    crowbarSource.Play();
+                else
+                    damagable.HitAudio.Play();
+
+            }
+            else
+            {
+                crowbarSource.Play();
             }
         }
     }
@@ -61,14 +72,14 @@ public class CrowbarAttack : MonoBehaviour
         canAttack = true;
     }
 
-    IEnumerator CreateDecalDelayed(Vector3 position, Vector3 normal, float offset, float delay)
+    IEnumerator CreateDecalDelayed(GameObject parent, Vector3 position, Vector3 normal, float offset, float delay)
     {
         yield return new WaitForSeconds(delay);
         position += normal * offset;
         Quaternion rotation = Quaternion.LookRotation(normal) * Quaternion.Euler(0, 180, 0);
-        GameObject obj = Instantiate(decalPrefab, position, rotation);
-        Destroy(obj, 60f);
-        crowbarSource.Play();
+        GameObject decal = Instantiate(decalPrefab, position, rotation);
+        decal.transform.parent = parent.transform;
+        Destroy(decal, 60f);
     }
 
     void OnDrawGizmos()

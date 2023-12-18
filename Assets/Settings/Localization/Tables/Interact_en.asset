@@ -38,6 +38,14 @@ MonoBehaviour:
     m_Localized: Sit
     m_Metadata:
       m_Items: []
+  - m_Id: 1904354990755840
+    m_Localized: Need Power Room Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1904921909661696
+    m_Localized: Power Room Key
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

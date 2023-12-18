@@ -60,7 +60,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1122415060979712
-    m_Key: Play
+    m_Key: New Game
     m_Metadata:
       m_Items: []
   - m_Id: 1122434472218624
@@ -89,6 +89,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1126687072849920
     m_Key: Keybinds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291189633617920
+    m_Key: Continue
     m_Metadata:
       m_Items: []
   m_Metadata:

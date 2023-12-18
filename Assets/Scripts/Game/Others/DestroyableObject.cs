@@ -8,6 +8,13 @@ public class DestroyableObject : MonoBehaviour, IDamage
     [SerializeField] private float initialHealth;
     [SerializeField] private GameObject particlePrefab;
     [SerializeField] private AudioSource destroyedSource;
+    [SerializeField] private AudioSource hitSource;
+    public AudioSource HitAudio
+    {
+        get { return hitSource; }
+        set { hitSource = value; }
+    }
+
     private float currentHealth;
     private bool canDestroy;
 
@@ -34,6 +41,8 @@ public class DestroyableObject : MonoBehaviour, IDamage
             Instantiate(particlePrefab, transform.position, Quaternion.identity);
             destroyedSource.Play();
             canDestroy = true;
+
+
         }
     }
 

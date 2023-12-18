@@ -35,6 +35,14 @@ MonoBehaviour:
     m_Key: Sit
     m_Metadata:
       m_Items: []
+  - m_Id: 1904354990755840
+    m_Key: EnergyDoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1904921909661696
+    m_Key: EnergyKey
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

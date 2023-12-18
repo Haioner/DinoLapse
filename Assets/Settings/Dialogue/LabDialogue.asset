@@ -2225,6 +2225,10 @@ MonoBehaviour:
         value: Quando colocar as duas cargas, afaste se um pouco
         type: 4
         typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: fead1138-56da-4205-8c31-0d83934ac24b
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0

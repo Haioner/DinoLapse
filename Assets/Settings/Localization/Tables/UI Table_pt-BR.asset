@@ -63,7 +63,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1122415060979712
-    m_Localized: Jogar
+    m_Localized: Novo Jogo
     m_Metadata:
       m_Items: []
   - m_Id: 1122434472218624
@@ -95,6 +95,10 @@ MonoBehaviour:
       esquerdo\r\nLan\xE7ar : Clique direito\r\nZoom de Camera : Clique Direito +
       Roda do Mouse\r\nRotacionar Item Agarravel : E (Enquanto Segura)\nLanterna:
       F\nSele\xE7\xE3o de Item: 1,2,3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291189633617920
+    m_Localized: Continuar
     m_Metadata:
       m_Items: []
   references:

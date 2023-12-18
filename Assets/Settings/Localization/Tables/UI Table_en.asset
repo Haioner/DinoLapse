@@ -63,7 +63,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1122415060979712
-    m_Localized: Play
+    m_Localized: New Game
     m_Metadata:
       m_Items: []
   - m_Id: 1122434472218624
@@ -110,6 +110,10 @@ MonoBehaviour:
       Flashligh: F
 
       Item Select: 1,2,3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291189633617920
+    m_Localized: Continue
     m_Metadata:
       m_Items: []
   references:
