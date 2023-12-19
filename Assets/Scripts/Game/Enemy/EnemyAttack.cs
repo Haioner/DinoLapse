@@ -25,7 +25,7 @@ public class EnemyAttack : MonoBehaviour
         foreach (Collider hitCollider in hitColliders)
         {
             IDamage damagable = hitCollider.GetComponent<IDamage>();
-            if (damagable != null)
+            if (damagable != null && hitCollider.CompareTag("Player"))
             {
                 damagable.TakeDamage(1);
                 StartCoroutine(AttackCooldown());

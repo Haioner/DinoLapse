@@ -101,6 +101,22 @@ MonoBehaviour:
     m_Localized: Continuar
     m_Metadata:
       m_Items: []
+  - m_Id: 4043204588474368
+    m_Localized: "Ao voltar no tempo, voc\xEA aparece dentro da maquina do nada.
+      Ent\xE3o explica para todos o que aconteceria se ligassem essa maquina... "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043637331595264
+    m_Localized: "Mas, quem estava no topo comandando esse experimento n\xE3o queria
+      aceitar... FIM ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043703752593408
+    m_Localized: 'Obrigado por jogar!
+
+      Por haioner'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

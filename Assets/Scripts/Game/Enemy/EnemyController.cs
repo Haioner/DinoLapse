@@ -55,7 +55,10 @@ public class EnemyController : MonoBehaviour
     private void CalculateState()
     {
         if (isTrigger)
+        {
             currentTimerChasing = timerToChase;
+
+        }
 
         if(currentTimerChasing > 0)
         {

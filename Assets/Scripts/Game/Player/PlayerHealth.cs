@@ -16,7 +16,12 @@ public class PlayerHealth : MonoBehaviour, IDamage
     [SerializeField] private Animator damageAnim;
     [SerializeField] private AudioSource damageSource;
     [SerializeField] private AudioSource dieSource;
-    public AudioSource HitAudio {  get; set; }
+    [SerializeField] private AudioSource hitSource;
+    public AudioSource HitAudio
+    {
+        get { return hitSource; }
+        set { hitSource = value; }
+    }
 
     private void Awake()
     {

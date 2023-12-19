@@ -39968,6 +39968,7 @@ MonoBehaviour:
   machineEnergy: {fileID: 3469287837518121122}
   batterySource: {fileID: 361483697}
   batteryObj: {fileID: 1406518607}
+  canCharge: 1
 --- !u!65 &361483699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70810,6 +70811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 791880016163807965, guid: 3e6861a7c6be4844ba4b8bb8b7fd8bc3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 791880016163807965, guid: 3e6861a7c6be4844ba4b8bb8b7fd8bc3,
         type: 3}
@@ -122030,6 +122036,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3351104869790065673, guid: d6c961be1ff23c54689189421d9bc7a2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4478267737756668215, guid: d6c961be1ff23c54689189421d9bc7a2,
         type: 3}
       propertyPath: m_IsActive
@@ -127062,6 +127073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 791880016163807965, guid: 3e6861a7c6be4844ba4b8bb8b7fd8bc3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 791880016163807965, guid: 3e6861a7c6be4844ba4b8bb8b7fd8bc3,
         type: 3}
@@ -133925,9 +133941,7 @@ Transform:
   - {fileID: 1950382512}
   - {fileID: 823279558}
   - {fileID: 1837289789}
-  - {fileID: 357587287}
   - {fileID: 1841587370}
-  - {fileID: 1058313210}
   - {fileID: 1096453591}
   - {fileID: 1923137056}
   - {fileID: 1897165505}
@@ -133937,11 +133951,13 @@ Transform:
   - {fileID: 113888497}
   - {fileID: 136711623}
   - {fileID: 1458328180}
+  - {fileID: 572919736}
+  - {fileID: 1080456268}
+  - {fileID: 357587287}
+  - {fileID: 1058313210}
   - {fileID: 1522027143}
   - {fileID: 805751551}
   - {fileID: 2042840727}
-  - {fileID: 572919736}
-  - {fileID: 1080456268}
   m_Father: {fileID: 195976748}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -142437,6 +142453,7 @@ MonoBehaviour:
   machineEnergy: {fileID: 3469287837231810943}
   batterySource: {fileID: 1691684073}
   batteryObj: {fileID: 1822518121}
+  canCharge: 1
 --- !u!65 &1691684075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -148036,7 +148053,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 4c1b004393590674e820464c2e721bb6, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 725d31ae25f7bbf41839ddf42544be99, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1774439263
 Transform:
@@ -172721,6 +172738,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair_17 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 791880016163807965, guid: 3e6861a7c6be4844ba4b8bb8b7fd8bc3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 791880016163807965, guid: 3e6861a7c6be4844ba4b8bb8b7fd8bc3,
         type: 3}

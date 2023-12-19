@@ -8,6 +8,9 @@ public class MenuController : MonoBehaviour
 
     private void Awake()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         if(PlayerPrefs.HasKey(sceneNameKey))
         {
             continueButton.interactable = true;
