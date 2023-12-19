@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 3375443472170946605, guid: 611395004dcbb054c8668666db44467a,
         type: 3}
       propertyPath: carSpeed
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 3384181703547314858, guid: 611395004dcbb054c8668666db44467a,
         type: 3}

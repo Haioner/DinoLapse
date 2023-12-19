@@ -2363,7 +2363,8 @@ MonoBehaviour:
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Voc\xEA tem que ir para o teste novo da empresa DreamDinos Co"
+        value: "Voc\xEA tem que ir para o teste novo da empresa <wave>DreamDinos
+          Co"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 7

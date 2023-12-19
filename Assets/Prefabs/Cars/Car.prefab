@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e941a3e222eb45747b431e158c85fd08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carSpeed: 25
+  carSpeed: 27
 --- !u!82 &6162685206662191027
 AudioSource:
   m_ObjectHideFlags: 0
