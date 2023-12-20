@@ -158,6 +158,11 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    public void SetDestination(Transform pos)
+    {
+        agent.SetDestination(pos.position);
+    }
+
     private bool RandomPoint(Vector3 center, float range, out Vector3 result)
     {
         Vector3 randomPoint = center + Random.insideUnitSphere * range;

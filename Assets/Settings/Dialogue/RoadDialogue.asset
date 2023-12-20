@@ -237,11 +237,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Why do they make the parking lot so small?
+        value: Who's the genius behind this tiny parking lot?
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Por que fazem um estacionamento t\xE3o pequeno assim?"
+        value: "Quem foi o g\xEAnio que fez esse estacionamento min\xFAsculo?"
         type: 4
         typeString: CustomFieldType_Localization
       - title: EventGuid
@@ -304,11 +304,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: And now how do I leave?
+        value: Now, how do I make my grand exit?
         type: 4
         typeString: 
       - title: pt-BR
-        value: 'E agora como vou embora? '
+        value: "E agora, como \xE9 que eu sumo daqui?"
         type: 4
         typeString: 
       conversationID: 1
@@ -367,11 +367,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I'll have to go over the lawn
+        value: Guess I'll risk the grass, no other choice.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Vou ter que passar por cima do gramado
+        value: "Acho que vou arriscar o gramado, n\xE3o tem jeito."
         type: 4
         typeString: CustomFieldType_Localization
       - title: EventGuid
@@ -434,11 +434,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Bred is going to get mad at me again for pass over the grass...
+        value: Breno's gonna flip out again 'cause I stepped on the grass...
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: O Breno vai ficar bravo comigo de novo por passar em cima da grama...
+        value: O Breno vai surtar de novo porque passei na grama...
         type: 4
         typeString: CustomFieldType_Localization
       - title: EventGuid
@@ -465,8 +465,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.1799998
+    canvasScrollPosition: {x: 12.569704, y: 5.9968143}
+    canvasZoom: 1.2099998
   - id: 2
     fields:
     - title: Title
@@ -607,11 +607,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: The problem with coming here is that there might be bears...
+        value: The problem with coming here is that <shake>bears</shake> can appear...
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Problema de vir at\xE9 aqui \xE9 que podem haver ursos..."
+        value: "Problema de vir at\xE9 aqui \xE9 que pode aparecer <shake>ursos</shake>..."
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -635,8 +635,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
-        y: 80
+        x: 158
+        y: 81
         width: 160
         height: 30
     - id: 2
@@ -670,12 +670,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I saw one the other day, it was brown and big, a danger like that
-          nearby.
+        value: I saw one the other day, it was <color=purple>brown and big</color>,
+          I almost <color=red>shit myself</color>.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Esses dias vi um, era marrom e grande, um perigo desses aqui perto.
+        value: Esses dias vi um, era <color=purple>marrom e grande</color>, quase
+          me <color=red>caguei</color>.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -734,11 +735,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Hehe brown and big
+        value: Hehe <color=purple>brown and big</color>
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Hehe marrom e grande
+        value: Hehe <color=purple>marrom e grande</color>
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -903,11 +904,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: "Oh, good afternoon M\xE1rcio Costa, I was waiting for you."
+        value: "Good afternoon M\xE1rcio, I was waiting for you to arrive."
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Oh, boa tarde M\xE1rcio Costa, estava esperando o senhor."
+        value: "Boa tarde M\xE1rcio, estava esperando o senhor chegar."
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -966,11 +967,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: A little late, was there anything unforeseen?
+        value: A little <shake><color=red>late</shake></color>, did something unforeseen
+          happen?
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Um pouco atrasado, houve algum imprevisto ?
+        value: Um pouco <shake><color=red>atrasado</shake></color>, aconteceu algum
+          imprevisto ?
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -1029,13 +1032,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Well, let's go in, we are already in the testing phase, preparations
-          are already over
+        value: Well, let's go in, we're ready to <wave>start the experiment
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Bom, vamos entrar, j\xE1 estamos em fase de testes, os preparativos
-          j\xE1 est\xE3o acabando."
+        value: "Bom, vamos entrar, j\xE1 estamos prontos para <wave>iniciar o experimento"
         type: 4
         typeString: CustomFieldType_Localization
       - title: EventGuid
@@ -1405,11 +1406,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Damn it, Margaret don't die now
+        value: <shake>What the hell!</shake> Margaret don't leave me now my love
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Que droga, Margaret n\xE3o morra agora"
+        value: "<shake>Que droga!</shake> Margaret n\xE3o me deixa agora meu amor"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -1468,11 +1469,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Margaret is my treasure, I won it in a draw 8 years ago
+        value: Remember when I won you that <color=purple>draw 8 years ago</color>?
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Margaret \xE9 meu tesouro, ganhei num sorteio a 8 anos atr\xE1s"
+        value: "Lembra de quando eu te ganhei naquele <color=purple>sorteio a 8 anos
+          atr\xE1s</color>?"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -1531,11 +1533,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: We've been through so many moments together
+        value: We've been through so many moments together Margaret, <wave><color=red>I
+          love you
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "J\xE1 passamos por tantos momentos juntos"
+        value: "J\xE1 passamos por tantos momentos juntos Margaret, <wave><color=red>eu
+          te amo</wave></color>"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -1700,11 +1704,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Pedro and his bad car, this happens almost every day
+        value: This happens almost every day. Pedro and his <color=red><shake>horrible
+          car</shake></color>.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Pedro e esse carro ruim dele, acontece isso quase todo dia
+        value: "Acontece isso quase todo dia. Pedro e esse <color=red><shake>carro
+          horr\xEDvel dele</shake></color>."
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -1728,7 +1734,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 80
         width: 160
         height: 30
@@ -1763,11 +1769,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: We were going to go on a trip but it seems like it's already over
+        value: We were going to the beach, but it seems like it's gone
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "A gente ia fazer uma viagem mas parece que j\xE1 era"
+        value: "A gente tava indo pra praia, mas parece que j\xE1 era"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -1791,8 +1797,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
-        y: 130
+        x: 159
+        y: 131
         width: 160
         height: 30
     - id: 3
@@ -1826,13 +1832,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I waited all year for this holiday trip and Pedro won't change this
-          shitty car he calls Margaret
+        value: I waited all year for this vacation trip and Pedro won't change this
+          <color=red><shake>damn car he calls Margaret</color=red></shake>
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
         value: "Esperei o ano inteiro por essa viagem de ferias e Pedro n\xE3o troca
-          essa merda de carro que ele chama de Margaret"
+          essa <color=red><shake>porcaria de carro que ele chama de Margaret</color></shake>"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -1891,13 +1897,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I'm thinking about going with Enzo by bike to the beach. As it is,
-          we won't get out of here
+        value: As it is, we're not going to get out of here. I think I'll order a
+          <color=yellow><bounce>taxi</color></bounce> and go with Enzo to the beach
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "To cogitando ir com Enzo de bicicleta para a praia. Do jeito que
-          ta n\xE3o vamos sair da qui"
+        value: "Do jeito que ta n\xE3o vamos sair daqui. Acho que vou pedir um <color=yellow><bounce>taxi</color></bounce>
+          e ir com enzo pra praia"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -2125,11 +2131,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: But every time we go by car it breaks down
+        value: But every time we go by car, it breaks down
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Mas sempre que a gente vai de carro ele quebra
+        value: Mas sempre que a gente vai de carro, ele quebra
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 6
@@ -2188,13 +2194,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I'm glad I have DinoDream, he's always with me and when I go to sleep
-          he protects me from monsters.
+        value: Lucky I've got my <color=orange><incr>DinoDream</incr></color> always
+          by my side. When I hit the hay, he's my monster-busting bodyguard.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Ainda bem que eu tenho DinoDream ele ta sempre comigo e quando vo
-          dormir ele me protege dos monstros
+        value: "Sorte que tenho meu <color=orange><incr>DinoDream</incr></color>
+          sempre junto. Na hora de dormir, ele \xE9 meu guarda-costas contra os monstros."
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 6
@@ -2359,11 +2365,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: You have to go to the new test from the company DreamDinos Co
+        value: You have to go to the experiment of the company <wave>DreamDinos Co
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Voc\xEA tem que ir para o teste novo da empresa <wave>DreamDinos
+        value: "Voc\xEA tem que ir para o experimento da empresa <wave>DreamDinos
           Co"
         type: 4
         typeString: CustomFieldType_Localization
@@ -2529,11 +2535,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: "Oh, hi M\xE1rcio."
+        value: "Hey M\xE1rcio"
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Ah, oi M\xE1rcio"
+        value: "Eae M\xE1rcio"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8
@@ -2592,11 +2598,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I heard you were chosen to start the machine
+        value: I heard you were <color=purple>chosen</color> to start the machine
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Soube que voc\xEA foi escolhido pra ligar a maquina"
+        value: "Soube que voc\xEA foi <color=purple>escolhido</color> pra ligar a
+          maquina"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8
@@ -2655,13 +2662,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Good luck, I heard they didn't even do the tests properly, they just
-          looked at the theory
+        value: Good luck, I heard they <color=red>didn't even do the tests properly</color>.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Boa sorte, escutei que eles nem testes fizeram direito, s\xF3 olharam
-          a teoria"
+        value: Boa sorte, escutei que eles <color=red>nem testes fizeram direito</color>.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8
@@ -2720,11 +2725,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I would call my family first
+        value: I would call my <color=orange>family</color> first.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Eu ligaria pra minha fam\xEDlia antes"
+        value: "Eu ligaria pra minha <color=orange>fam\xEDlia</color> antes."
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8

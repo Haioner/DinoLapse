@@ -10,6 +10,7 @@ public class MachineManager : MonoBehaviour
     [SerializeField] private float speedRotation;
     [SerializeField] private AudioSource centerSource;
     [SerializeField] private GameObject vitrineLights;
+    [SerializeField] private float chargeValue = 20f;
     private int currentMachines;
 
     [Header("Machine Timeline")]
@@ -52,7 +53,7 @@ public class MachineManager : MonoBehaviour
             charge += 2 * Time.deltaTime;
         }
 
-        if(charge > 10)
+        if(charge > chargeValue)
         {
             director.Play();
             hasStartedDestroyed = true;

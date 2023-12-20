@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: LabDialogue
+  m_Name: LabDialogue (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -300,12 +300,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Toy <color=red>sales shares</color> are falling
+        value: Toy sales shares are falling
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "As <color=red>a\xE7\xF5es das vendas</color> dos brinquedos t\xE3o
-          caindo"
+        value: "As a\xE7\xF5es das vendas dos brinquedos t\xE3o caindo"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -364,12 +363,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Will they <shake><color=red>close</shake></color> this branch?
+        value: Will they close this branch?
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Ser\xE1 que v\xE3o <shake><color=red>fechar</shake></color> essa
-          filial ?"
+        value: "Ser\xE1 que v\xE3o fechar essa filial ?"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -597,11 +595,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: It's funny that this is a <incr>DinoDream</incr> toy factory
+        value: It's funny that this is a dino dream toy factory
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "\xC9 engra\xE7ado que aqui \xE9 uma f\xE1brica de brinquedos <incr>DinoDream</incr>"
+        value: "\xC9 engra\xE7ado que aqui \xE9 uma f\xE1brica de brinquedos dino
+          dream"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -660,13 +659,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: But I never went to where they produce the toys, we just stayed here
-          in the office
+        value: But I never see how they produce, we just stay here in the office
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Mas eu nunca fui pra onde produzem os brinquedos, so ficamos por
-          aqui no escrit\xF3rio"
+        value: "Mas eu n\xE3o vejo nunca como eles produzem, so ficamos aqui no escrit\xF3rio"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -831,11 +828,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Hi
+        value: Oh hi
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Ol\xE1"
+        value: "Oh ol\xE1"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -894,11 +891,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Are you going to eat these <color=yellow>bananas</color>?
+        value: Are you going to eat these bananas?
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Voc\xEA vai comer essas <color=yellow>bananas</color>?"
+        value: "Voc\xEA vai comer essas bananas ?"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -957,13 +954,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Someone left it here and <color=red><shake>left</color></shake>, can
-          I eat it...
+        value: Someone put it here and left, can I eat it?
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Alguem deixou aqui e foi <shake><color=red>embora</shake></color>
-          sera que eu posso comer...
+        value: Alguem botou aqui e foi embora sera que eu posso comer
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -1191,13 +1186,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: The experiment is ready to <wave>begin</wave>, just follow the corridor
-          to the left
+        value: We are ready in the experiment room, go left and enter the laboratory
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "O experimento j\xE1 est\xE1 pronto para <wave>come\xE7ar</wave>,
-          s\xF3 seguir pelo corredor a esquerda"
+        value: "J\xE1 estamos prontos na sala do experimento, siga a esquerda e entre
+          no laborat\xF3rio"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -1425,11 +1419,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: I just have to follow the <color=purple>protocols</color> first
+        value: I just have to follow the protocols first
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: So tenho que seguir os <color=purple>protocolos</color> antes
+        value: So tenho que seguir os protocolos antes
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -1488,11 +1482,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: There you go, have a <color=yellow><bounce>nice day</color></bounce>.
+        value: There you go, have a nice day
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Pronto, tenha um <color=yellow><bounce>bom dia</color></bounce>.
+        value: Pronto, tenha um bom dia
         type: 4
         typeString: CustomFieldType_Localization
       - title: EventGuid
@@ -1673,12 +1667,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: <color=yellow>Great</color> you're here, we can start the <color=purple>experiment</color>!
+        value: Great, we can start the experiment
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "<color=yellow>\xD3timo</color> voc\xEA chegou, podemos come\xE7ar
-          o <color=purple>experimento</color>!"
+        value: "\xD3timo, podemos come\xE7ar o experimento"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 6
@@ -1737,13 +1730,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: We will create life and consciousness for the <color=purple><incr>DinoDream</incr></color>
-          toy
+        value: We will create life and consciousness for the DreamDino toy
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
         value: "Faremos o procedimento de criar vida e consci\xEAncia para o brinquedo
-          <color=purple><incr>DinoDream</incr></color>"
+          DreamDino"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 6
@@ -1802,12 +1794,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: You will <color=blue>connect</color> the loads inside, so we can proceed
+        value: You will interconnect the particles inside so that we can proceed
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Voc\xEA ir\xE1 <color=blue>conectar</color> as cargas por dentro,
-          para darmos prosseguimento"
+        value: "Voc\xEA ir\xE1 interligar as part\xEDculas por dentro para darmos
+          procedimento"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 6
@@ -1866,13 +1858,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Don't <wave>worry</wave>, we take all precautions, the process will
-          be very safe.
+        value: Don't worry, we take all precautions, the process will be very safe.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "N\xE3o se <wave>preocupe</wave> tomamos todas as precau\xE7\xF5es,
-          o processo vai ser bem seguro"
+        value: "N\xE3o se preocupe tomamos todas as precau\xE7\xF5es, o processo
+          vai ser bem seguro"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 6
@@ -1896,8 +1887,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 161
-        y: 228
+        x: 160
+        y: 230
         width: 160
         height: 30
     - id: 5
@@ -2100,13 +2091,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: "Okay M\xE1rcio, do you see the <color=blue>blue charges</color> on
-          your left?"
+        value: "Okay M\xE1rcio, do you see the blue batteries on your left?"
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Certo M\xE1rcio, est\xE1 vendo as <color=blue>cargas azuis</color>
-          a sua esquerda?"
+        value: "Certo M\xE1rcio, est\xE1 vendo as baterias azuis a sua esquerda?"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 7
@@ -2165,13 +2154,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Open the compartment and take the <color=blue>charges</color> to the
-          container next to the machine
+        value: Open the compartment and take the batteries close to the machine for
+          charging.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: Abra o compartimento e leve as <color=blue>cargas</color> para o recipiente
-          proximo da maquina
+        value: Abra o compartimento e leve as baterias para carga proxima da maquina
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 7
@@ -2230,19 +2218,17 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: When you allocate the two <color=blue>loads</color>, the machine will
-          start in <color=red>maximum</color> power mode.
+        value: When placing the two loads, move them slightly away from each other.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Quando alocar as duas <color=blue>cargas</color>, a m\xE1quina iniciar\xE1
-          no modo <color=red>m\xE1ximo</color> de energia."
+        value: Quando colocar as duas cargas, afaste se um pouco
         type: 4
         typeString: CustomFieldType_Localization
       - title: EventGuid
         value: fead1138-56da-4205-8c31-0d83934ac24b
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0
@@ -2405,13 +2391,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: Operation <shake><color=red>not completed</shake></color> successfully.
-          Something went wrong in the processing array. <wave>Investigating</wave>...
+        value: Operation not completed successfully. Something went wrong in the
+          processing array. Investigating...
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "Opera\xE7\xE3o <shake><color=red>n\xE3o conclu\xEDda</shake></color>
-          com sucesso. Algo deu errado na matriz de processamento. <wave>Investigando</wave>..."
+        value: "Opera\xE7\xE3o n\xE3o conclu\xEDda com sucesso. Algo deu errado na
+          matriz de processamento. Investigando..."
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8
@@ -2470,13 +2456,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: <color=red>Alert!</color> Anomalies detected in processing cores.
-          <wave>Checking system integrity</wave>.
+        value: Alert! Anomalies detected in processing cores. Checking system integrity.
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "<color=red>Alerta!</color> Anomalias detectadas nos n\xFAcleos de
-          processamento. <wave>Verificando integridade do sistema</wave>."
+        value: "Alerta! Anomalias detectadas nos n\xFAcleos de processamento. Verificando
+          integridade do sistema."
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8
@@ -2535,12 +2520,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: "The experiment <shake><color=red>failed! M\xE1rcio, get out of there
-          now!"
+        value: "The experiment failed! M\xE1rcio, get out of there now!"
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "O experimento <shake><color=red>falhou! M\xE1rcio saia j\xE1 dai!"
+        value: "O experimento falhou! M\xE1rcio saia j\xE1 dai!"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8
@@ -2599,11 +2583,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: <shake>Sir, we had problems with the system, the energy is <color=red>overloaded!
+        value: Sir, we had problems with the system, the energy is overloaded
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: "<shake>Senhor tivemos problemas no sistema, a energia est\xE1 <color=red>sobrecarregada!"
+        value: "Senhor tivemos problemas no sistema a energia est\xE1 sobrecarregada"
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8
@@ -2662,11 +2646,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: en
-        value: <shake>AAAAAAAAAAAaaaaaaaAaAaaAAAaaaaaaaaaaaa....
+        value: AAaaaaaaaaaaaa....
         type: 4
         typeString: CustomFieldType_Localization
       - title: pt-BR
-        value: <shake>AAAAAAAAAAAaaaaaaaAaAaaAAAaaaaaaaaaaaa....
+        value: AAaaaaaaaaaaaa....
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 8

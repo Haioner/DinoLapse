@@ -102,13 +102,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4043204588474368
-    m_Localized: "Ao voltar no tempo, voc\xEA aparece dentro da maquina do nada.
-      Ent\xE3o explica para todos o que aconteceria se ligassem essa maquina... "
+    m_Localized: "Ao voltar no tempo, voc\xEA aparece dentro da maquina. Ent\xE3o
+      explica para todos o que aconteceria se ligassem a maquina... "
     m_Metadata:
       m_Items: []
   - m_Id: 4043637331595264
-    m_Localized: "Mas, quem estava no topo comandando esse experimento n\xE3o queria
-      aceitar... FIM ?"
+    m_Localized: "Por\xE9m, quem estava comandando o experimento n\xE3o aceitou,
+      e ainda est\xE1 atr\xE1s de seguir com o experimento... FIM?"
     m_Metadata:
       m_Items: []
   - m_Id: 4043703752593408

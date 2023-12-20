@@ -117,13 +117,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4043204588474368
-    m_Localized: When you go back in time, you appear inside the machine out of nowhere.
-      So explain to everyone what would happen if they turned on this machine...
+    m_Localized: When you go back in time, you appear inside the machine. Then explain
+      to everyone what would happen if they turned on the machine...
     m_Metadata:
       m_Items: []
   - m_Id: 4043637331595264
-    m_Localized: But, whoever was at the top commanding this experiment didn't want
-      to accept... THE END?
+    m_Localized: However, whoever was running the experiment didn't accept it, and
+      is still trying to continue with the experiment... THE END?
     m_Metadata:
       m_Items: []
   - m_Id: 4043703752593408
